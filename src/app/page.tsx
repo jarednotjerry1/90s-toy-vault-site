@@ -37,84 +37,78 @@ export default function HomePage() {
   const grid = articles.filter((a) => !a.featured);
 
   return (
-    <>
+    <div className="mx-auto max-w-6xl px-6 md:px-8">
       <Hero />
 
       {/* Featured Article */}
       {featured && (
-        <section className="px-6 pb-16">
-          <div className="mx-auto max-w-7xl">
-            <div className="flex items-center gap-3 mb-8">
-              <span className="text-xs font-semibold uppercase tracking-wider font-[family-name:var(--font-mono)] text-vault-amber">
-                Featured
-              </span>
-              <div className="flex-1 h-px bg-vault-border" />
-            </div>
-            <ArticleCard
-              slug={featured.slug}
-              title={featured.title}
-              excerpt={featured.excerpt}
-              category={featured.category}
-              date={featured.date}
-              readingTime={featured.readingTime}
-              color={featured.color}
-              featured
-            />
+        <section className="pb-16">
+          <div className="flex items-center gap-3 mb-6">
+            <span className="text-xs font-semibold uppercase tracking-wider font-[family-name:var(--font-mono)] text-vault-amber">
+              Featured
+            </span>
+            <div className="flex-1 h-px bg-vault-border" />
           </div>
+          <ArticleCard
+            slug={featured.slug}
+            title={featured.title}
+            excerpt={featured.excerpt}
+            category={featured.category}
+            date={featured.date}
+            readingTime={featured.readingTime}
+            color={featured.color}
+            featured
+          />
         </section>
       )}
 
       {/* Article Grid */}
-      <section id="articles" className="px-6 py-16">
-        <div className="mx-auto max-w-7xl">
-          <div className="flex items-center gap-3 mb-8">
-            <span className="text-xs font-semibold uppercase tracking-wider font-[family-name:var(--font-mono)] text-vault-cyan">
-              Latest
-            </span>
-            <div className="flex-1 h-px bg-vault-border" />
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {grid.map((article) => (
-              <ArticleCard
-                key={article.slug}
-                slug={article.slug}
-                title={article.title}
-                excerpt={article.excerpt}
-                category={article.category}
-                date={article.date}
-                readingTime={article.readingTime}
-                color={article.color}
-              />
-            ))}
-          </div>
+      <section id="articles" className="py-16">
+        <div className="flex items-center gap-3 mb-6">
+          <span className="text-xs font-semibold uppercase tracking-wider font-[family-name:var(--font-mono)] text-vault-cyan">
+            Latest
+          </span>
+          <div className="flex-1 h-px bg-vault-border" />
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {grid.map((article) => (
+            <ArticleCard
+              key={article.slug}
+              slug={article.slug}
+              title={article.title}
+              excerpt={article.excerpt}
+              category={article.category}
+              date={article.date}
+              readingTime={article.readingTime}
+              color={article.color}
+            />
+          ))}
         </div>
       </section>
 
       {/* Videos Section */}
-      <section id="videos" className="px-6 py-16 bg-vault-bg-secondary">
-        <div className="mx-auto max-w-7xl">
-          <div className="flex items-center gap-3 mb-8">
-            <span className="text-xs font-semibold uppercase tracking-wider font-[family-name:var(--font-mono)] text-vault-magenta">
-              Videos
-            </span>
-            <div className="flex-1 h-px bg-vault-border" />
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {videos.map((video) => (
-              <VideoCard
-                key={video.title}
-                title={video.title}
-                category={video.category}
-                duration={video.duration}
-                color={video.color}
-              />
-            ))}
-          </div>
+      <section id="videos" className="py-16">
+        <div className="flex items-center gap-3 mb-6">
+          <span className="text-xs font-semibold uppercase tracking-wider font-[family-name:var(--font-mono)] text-vault-magenta">
+            Videos
+          </span>
+          <div className="flex-1 h-px bg-vault-border" />
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {videos.map((video) => (
+            <VideoCard
+              key={video.title}
+              title={video.title}
+              category={video.category}
+              duration={video.duration}
+              color={video.color}
+            />
+          ))}
         </div>
       </section>
 
       {/* Newsletter */}
       <Newsletter />
-    </>
+    </div>
   );
 }
