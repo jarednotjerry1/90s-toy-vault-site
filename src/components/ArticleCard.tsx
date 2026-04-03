@@ -38,9 +38,9 @@ export function ArticleCard({
   if (featured) {
     return (
       <Link href={`/articles/${slug}`} className="group block">
-        <article className="grid grid-cols-1 md:grid-cols-[1.1fr_1fr] rounded-xl border border-vault-border bg-vault-card overflow-hidden hover:border-vault-amber/40 transition-colors">
+        <article className="grid grid-cols-1 md:grid-cols-2 rounded-xl border border-vault-border bg-vault-card overflow-hidden hover:border-vault-amber/40 transition-colors">
           <div
-            className="aspect-[16/10] md:aspect-auto md:min-h-[360px] relative overflow-hidden"
+            className="aspect-[16/10] md:aspect-auto md:min-h-[340px] relative overflow-hidden"
             style={{ backgroundColor: color }}
           >
             {image ? (
@@ -49,7 +49,7 @@ export function ArticleCard({
                 alt={title}
                 fill
                 className="object-cover"
-                sizes="(max-width: 768px) 100vw, 55vw"
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
             ) : (
               <div className="absolute inset-0 flex items-center justify-center">
@@ -59,8 +59,8 @@ export function ArticleCard({
               </div>
             )}
           </div>
-          <div className="p-8 md:p-10 flex flex-col justify-center">
-            <div className="flex items-center gap-3 mb-4">
+          <div className="p-7 md:p-10 flex flex-col justify-center">
+            <div className="flex items-center gap-3 mb-3">
               <span
                 className={`text-xs font-semibold uppercase tracking-wider font-[family-name:var(--font-mono)] ${categoryColor}`}
               >
@@ -70,13 +70,13 @@ export function ArticleCard({
                 {date}
               </span>
             </div>
-            <h2 className="text-2xl md:text-3xl font-bold font-[family-name:var(--font-headline)] text-vault-text leading-tight group-hover:text-vault-amber transition-colors">
+            <h2 className="text-xl md:text-2xl font-bold font-[family-name:var(--font-headline)] text-vault-text leading-tight group-hover:text-vault-amber transition-colors">
               {title}
             </h2>
-            <p className="mt-4 text-vault-text-secondary text-[0.95rem] leading-relaxed line-clamp-4">
+            <p className="mt-3 text-vault-text-secondary text-sm leading-relaxed line-clamp-3">
               {excerpt}
             </p>
-            <div className="mt-6">
+            <div className="mt-5">
               <span className="text-xs text-vault-text-muted font-[family-name:var(--font-mono)]">
                 {readingTime}
               </span>
@@ -91,7 +91,7 @@ export function ArticleCard({
     <Link href={`/articles/${slug}`} className="group block">
       <article className="rounded-xl border border-vault-border bg-vault-card overflow-hidden hover:border-vault-amber/40 transition-colors h-full flex flex-col">
         <div
-          className="aspect-[16/9] relative overflow-hidden"
+          className="aspect-[16/9] relative overflow-hidden flex-shrink-0"
           style={{ backgroundColor: color }}
         >
           {image ? (
@@ -111,20 +111,20 @@ export function ArticleCard({
           )}
         </div>
         <div className="p-5 md:p-6 flex flex-col flex-1">
-          <div className="flex items-center gap-3 mb-3">
+          <div className="flex items-center gap-3 mb-2">
             <span
               className={`text-xs font-semibold uppercase tracking-wider font-[family-name:var(--font-mono)] ${categoryColor}`}
             >
               {category}
             </span>
           </div>
-          <h3 className="text-[1.05rem] font-bold font-[family-name:var(--font-headline)] text-vault-text leading-snug group-hover:text-vault-amber transition-colors">
+          <h3 className="text-base font-bold font-[family-name:var(--font-headline)] text-vault-text leading-snug group-hover:text-vault-amber transition-colors">
             {title}
           </h3>
-          <p className="mt-2 text-vault-text-secondary text-sm leading-relaxed line-clamp-3 flex-1">
+          <p className="mt-2 text-vault-text-secondary text-sm leading-relaxed line-clamp-2 flex-1">
             {excerpt}
           </p>
-          <div className="mt-4 flex items-center gap-3 text-xs text-vault-text-muted font-[family-name:var(--font-mono)]">
+          <div className="mt-4 pt-3 border-t border-vault-border flex items-center gap-3 text-xs text-vault-text-muted font-[family-name:var(--font-mono)]">
             <span>{date}</span>
             <span className="w-1 h-1 rounded-full bg-vault-text-muted" />
             <span>{readingTime}</span>

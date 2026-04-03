@@ -16,19 +16,22 @@ export function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-vault-border bg-vault-bg/95 backdrop-blur-md">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <Link href="/" className="flex items-center gap-0 text-xl font-bold font-[family-name:var(--font-headline)] tracking-tight">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 md:px-8 py-4">
+        <Link
+          href="/"
+          className="flex items-center gap-0 text-xl font-bold font-[family-name:var(--font-headline)] tracking-tight"
+        >
           <span className="text-vault-text">90s Toy&nbsp;</span>
           <span className="text-vault-amber">Vault</span>
         </Link>
 
         {/* Desktop nav */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-10">
           {navLinks.map((link) => (
             <Link
               key={link.label}
               href={link.href}
-              className="text-sm text-vault-text-secondary hover:text-vault-text transition-colors font-[family-name:var(--font-body)]"
+              className="text-[0.8125rem] text-vault-text-secondary hover:text-vault-text transition-colors font-[family-name:var(--font-body)] tracking-wide"
             >
               {link.label}
             </Link>
@@ -41,7 +44,14 @@ export function Navbar() {
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label="Toggle menu"
         >
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+          >
             {mobileOpen ? (
               <path d="M6 6l12 12M6 18L18 6" />
             ) : (
