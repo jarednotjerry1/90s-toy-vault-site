@@ -8,7 +8,7 @@ const featuredTikToks = [
   { id: "7612700382778625293", label: "TMNT History" },
   { id: "7617628926671736078", label: "Beanie Babies" },
   { id: "7624569840543468830", label: "$175K Beach Bomb" },
-  { id: "7613444502199504141", label: "TMNT Pt. 3" },
+  { id: "7623387580788182303", label: "Uncanny Valley" },
   { id: "7618371132806237453", label: "Beanie Babies Pt. 3" },
   { id: "7624331679909317918", label: "Hot Wheels" },
 ];
