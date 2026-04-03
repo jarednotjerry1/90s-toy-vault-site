@@ -4,6 +4,7 @@ import { Metadata } from "next";
 import { getArticleBySlug, getAllSlugs, getAllArticles } from "@/lib/articles";
 import { ArticleCard } from "@/components/ArticleCard";
 import { ArticleBody } from "@/components/ArticleBody";
+import { TikTokGrid } from "@/components/TikTokEmbed";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -95,6 +96,24 @@ export default async function ArticlePage({ params }: PageProps) {
 
         {/* Article body */}
         <ArticleBody content={article.content} />
+
+        {/* TikTok videos */}
+        {article.tiktoks && article.tiktoks.length > 0 && (
+          <div className="mt-16 pt-12 border-t border-vault-border">
+            <h2 className="text-xl font-bold font-[family-name:var(--font-headline)] text-vault-text mb-2">
+              Watch the Series
+            </h2>
+            <p className="text-sm text-vault-text-secondary mb-8">
+              Follow <a href="https://tiktok.com/@90stoyvault" target="_blank" rel="noopener noreferrer" className="text-vault-amber hover:underline">@90stoyvault</a> for more.
+            </p>
+            <TikTokGrid
+              videos={article.tiktoks.map((id: string, i: number) => ({
+                id,
+                label: `Part ${i + 1}`,
+              }))}
+            />
+          </div>
+        )}
       </div>
 
       {/* Related articles */}

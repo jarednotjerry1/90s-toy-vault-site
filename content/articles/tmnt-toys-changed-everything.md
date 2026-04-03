@@ -8,6 +8,15 @@ readingTime: "15 min read"
 color: "#3DDC84"
 image: "/images/articles/tmnt.png"
 featured: false
+tiktoks:
+  - "7612700382778625293"
+  - "7613052156274396430"
+  - "7613444502199504141"
+  - "7613800759427108110"
+  - "7614147853795069197"
+  - "7614960533820706062"
+  - "7615664346839977230"
+  - "7616053074397875469"
 ---
 
 In 1984, two guys in their twenties sat in a living room in Dover, New Hampshire, drawing pictures of turtles with nunchucks. They were joking around. It was late. One of them sketched a turtle standing upright, wearing a mask, holding a weapon. The other one laughed and said "ninja turtle." Then they both stopped laughing. Because it was actually kind of genius.

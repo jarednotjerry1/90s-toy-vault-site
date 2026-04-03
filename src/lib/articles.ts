@@ -14,6 +14,7 @@ export interface ArticleFrontmatter {
   color: string;
   image?: string;
   featured?: boolean;
+  tiktoks?: string[];
 }
 
 export interface Article extends ArticleFrontmatter {
@@ -39,6 +40,7 @@ export function getAllArticles(): Article[] {
         color: data.color,
         image: data.image || null,
         featured: data.featured || false,
+        tiktoks: data.tiktoks || [],
         content,
       } as Article;
     });
