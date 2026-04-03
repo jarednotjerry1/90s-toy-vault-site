@@ -5,12 +5,12 @@ import { Newsletter } from "@/components/Newsletter";
 import { getAllArticles } from "@/lib/articles";
 
 const featuredTikToks = [
-  { id: "7612700382778625293", label: "TMNT Pt. 1" },
-  { id: "7613052156274396430", label: "TMNT Pt. 2" },
+  { id: "7612700382778625293", label: "TMNT History" },
+  { id: "7617628926671736078", label: "Beanie Babies" },
+  { id: "7624569840543468830", label: "$175K Beach Bomb" },
   { id: "7613444502199504141", label: "TMNT Pt. 3" },
-  { id: "7614960533820706062", label: "TMNT Pt. 8" },
-  { id: "7616053074397875469", label: "TMNT Pt. 10" },
-  { id: "7614147853795069197", label: "TMNT Pt. 5" },
+  { id: "7618371132806237453", label: "Beanie Babies Pt. 3" },
+  { id: "7624331679909317918", label: "Hot Wheels" },
 ];
 
 export default function HomePage() {

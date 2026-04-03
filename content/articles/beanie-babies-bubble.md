@@ -8,6 +8,14 @@ readingTime: "12 min read"
 color: "#FF4FA3"
 image: "/images/articles/beanie-babies.png"
 featured: false
+tiktoks:
+  - "7617628926671736078"
+  - "7618000000164941070"
+  - "7618371132806237453"
+  - "7618742176893144333"
+  - "7619113321127529742"
+  - "7619484371682135309"
+  - "7620411831370272013"
 ---
 
 In 1999, a couple in Las Vegas was getting divorced. They couldn't agree on how to divide their assets. So they went to court. A judge presided. Lawyers were present. And the asset they were fighting over? Beanie Babies. They spread them out on the courtroom floor and took turns picking, like a playground draft for stuffed animals.

@@ -8,6 +8,9 @@ readingTime: "10 min read"
 color: "#FF6B2B"
 image: "/images/articles/hot-wheels.png"
 featured: false
+tiktoks:
+  - "7624331679909317918"
+  - "7624569840543468830"
 ---
 
 In 1999, a collector named Bruce Pascal spent $72,000 on a tiny pink Volkswagen van. It was a Hot Wheels car. Not a real car. A toy car. Small enough to fit in your palm. And at the time, it was the most expensive Hot Wheels car ever sold.
