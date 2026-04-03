@@ -6,6 +6,7 @@ category: "Deep Dive"
 date: "2026-04-03"
 readingTime: "18 min read"
 color: "#9B7BFF"
+image: "/images/articles/gi-joe-featured.png"
 featured: true
 ---
 

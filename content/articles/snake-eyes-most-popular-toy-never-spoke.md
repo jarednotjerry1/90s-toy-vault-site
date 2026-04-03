@@ -6,6 +6,7 @@ category: "Deep Dive"
 date: "2026-03-21"
 readingTime: "10 min read"
 color: "#FF4FA3"
+image: "/images/articles/snake-eyes.png"
 featured: false
 ---
 

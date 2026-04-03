@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 interface ArticleCardProps {
   slug: string;
@@ -8,6 +9,7 @@ interface ArticleCardProps {
   date: string;
   readingTime: string;
   color: string;
+  image?: string | null;
   featured?: boolean;
 }
 
@@ -28,6 +30,7 @@ export function ArticleCard({
   date,
   readingTime,
   color,
+  image,
   featured = false,
 }: ArticleCardProps) {
   const categoryColor = categoryColors[category] || "text-vault-cyan";
@@ -37,12 +40,24 @@ export function ArticleCard({
       <Link href={`/articles/${slug}`} className="group block">
         <article className="grid grid-cols-1 md:grid-cols-[1.1fr_1fr] rounded-xl border border-vault-border bg-vault-card overflow-hidden hover:border-vault-amber/40 transition-colors">
           <div
-            className="aspect-[16/10] md:aspect-auto md:min-h-[360px] flex items-center justify-center relative"
+            className="aspect-[16/10] md:aspect-auto md:min-h-[360px] relative overflow-hidden"
             style={{ backgroundColor: color }}
           >
-            <span className="text-7xl font-bold font-[family-name:var(--font-headline)] text-white/10 select-none">
-              90sTV
-            </span>
+            {image ? (
+              <Image
+                src={image}
+                alt={title}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 55vw"
+              />
+            ) : (
+              <div className="absolute inset-0 flex items-center justify-center">
+                <span className="text-7xl font-bold font-[family-name:var(--font-headline)] text-white/10 select-none">
+                  90sTV
+                </span>
+              </div>
+            )}
           </div>
           <div className="p-8 md:p-10 flex flex-col justify-center">
             <div className="flex items-center gap-3 mb-4">
@@ -76,12 +91,24 @@ export function ArticleCard({
     <Link href={`/articles/${slug}`} className="group block">
       <article className="rounded-xl border border-vault-border bg-vault-card overflow-hidden hover:border-vault-amber/40 transition-colors h-full flex flex-col">
         <div
-          className="aspect-[16/9] flex items-center justify-center"
+          className="aspect-[16/9] relative overflow-hidden"
           style={{ backgroundColor: color }}
         >
-          <span className="text-4xl font-bold font-[family-name:var(--font-headline)] text-white/10 select-none">
-            90sTV
-          </span>
+          {image ? (
+            <Image
+              src={image}
+              alt={title}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 33vw"
+            />
+          ) : (
+            <div className="absolute inset-0 flex items-center justify-center">
+              <span className="text-4xl font-bold font-[family-name:var(--font-headline)] text-white/10 select-none">
+                90sTV
+              </span>
+            </div>
+          )}
         </div>
         <div className="p-5 md:p-6 flex flex-col flex-1">
           <div className="flex items-center gap-3 mb-3">

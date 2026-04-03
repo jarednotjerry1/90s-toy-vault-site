@@ -57,6 +57,7 @@ export default function HomePage() {
             date={featured.date}
             readingTime={featured.readingTime}
             color={featured.color}
+            image={featured.image}
             featured
           />
         </section>
@@ -81,6 +82,7 @@ export default function HomePage() {
               date={article.date}
               readingTime={article.readingTime}
               color={article.color}
+              image={article.image}
             />
           ))}
         </div>

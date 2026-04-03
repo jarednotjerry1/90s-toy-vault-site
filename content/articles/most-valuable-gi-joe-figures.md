@@ -6,6 +6,7 @@ category: "Price Guide"
 date: "2026-03-07"
 readingTime: "7 min read"
 color: "#FFB938"
+image: "/images/articles/price-guide.png"
 featured: false
 ---
 

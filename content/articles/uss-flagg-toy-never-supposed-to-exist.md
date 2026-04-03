@@ -6,6 +6,7 @@ category: "Deep Dive"
 date: "2026-03-28"
 readingTime: "12 min read"
 color: "#00E5D9"
+image: "/images/articles/uss-flagg.png"
 featured: false
 ---
 

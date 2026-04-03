@@ -6,6 +6,7 @@ category: "Deep Dive"
 date: "2026-02-21"
 readingTime: "9 min read"
 color: "#9B7BFF"
+image: "/images/articles/sgt-slaughter.png"
 featured: false
 ---
 

@@ -6,6 +6,7 @@ category: "History"
 date: "2026-03-14"
 readingTime: "8 min read"
 color: "#FF6B2B"
+image: "/images/articles/psa-cartoon.png"
 featured: false
 ---
 

@@ -6,6 +6,7 @@ category: "Opinion"
 date: "2026-02-28"
 readingTime: "6 min read"
 color: "#3DDC84"
+image: "/images/articles/neon-era.png"
 featured: false
 ---
 

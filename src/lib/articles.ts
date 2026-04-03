@@ -12,6 +12,7 @@ export interface ArticleFrontmatter {
   date: string;
   readingTime: string;
   color: string;
+  image?: string;
   featured?: boolean;
 }
 
@@ -36,6 +37,7 @@ export function getAllArticles(): Article[] {
         date: data.date,
         readingTime: data.readingTime,
         color: data.color,
+        image: data.image || null,
         featured: data.featured || false,
         content,
       } as Article;
