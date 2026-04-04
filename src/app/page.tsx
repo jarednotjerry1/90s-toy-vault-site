@@ -19,7 +19,7 @@ export default function HomePage() {
   const grid = articles.filter((a) => !a.featured);
 
   return (
-    <div className="mx-auto max-w-5xl px-8 md:px-12 lg:px-16">
+    <div className="mx-auto px-8 md:px-12 lg:px-16" style={{ maxWidth: '960px' }}>
       <Hero />
 
       {/* Featured Article */}
