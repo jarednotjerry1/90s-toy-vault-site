@@ -18,7 +18,7 @@ const footerLinks = [
 export function Footer() {
   return (
     <footer id="about" className="border-t border-vault-border bg-vault-bg-secondary">
-      <div className="mx-auto px-8 md:px-12 lg:px-16 py-16" style={{ maxWidth: '960px' }}>
+      <div className="site-container py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Brand */}
           <div>
