@@ -64,7 +64,7 @@ export default async function ArticlePage({ params }: PageProps) {
     .slice(0, 3);
 
   return (
-    <article className="pt-28 pb-20 px-6">
+    <article className="pt-28 pb-20 px-8 md:px-12 lg:px-16">
       <div className="mx-auto max-w-3xl">
         {/* Back link */}
         <Link
@@ -118,7 +118,7 @@ export default async function ArticlePage({ params }: PageProps) {
 
       {/* Related articles */}
       {related.length > 0 && (
-        <div className="mx-auto max-w-7xl mt-20 pt-16 border-t border-vault-border">
+        <div className="mx-auto max-w-5xl mt-20 pt-16 border-t border-vault-border">
           <div className="flex items-center gap-3 mb-8">
             <span className="text-xs font-semibold uppercase tracking-wider font-[family-name:var(--font-mono)] text-vault-amber">
               Keep Reading

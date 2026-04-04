@@ -59,7 +59,7 @@ export function ArticleCard({
               </div>
             )}
           </div>
-          <div className="p-7 md:p-12 flex flex-col justify-center">
+          <div className="p-8 md:py-10 md:px-14 flex flex-col justify-center">
             <div className="flex items-center gap-3 mb-3">
               <span
                 className={`text-xs font-semibold uppercase tracking-wider font-[family-name:var(--font-mono)] ${categoryColor}`}

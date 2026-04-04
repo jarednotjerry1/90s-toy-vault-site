@@ -19,7 +19,7 @@ export default function HomePage() {
   const grid = articles.filter((a) => !a.featured);
 
   return (
-    <div className="mx-auto max-w-6xl px-6 md:px-8">
+    <div className="mx-auto max-w-5xl px-8 md:px-12 lg:px-16">
       <Hero />
 
       {/* Featured Article */}
