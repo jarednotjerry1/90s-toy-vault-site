@@ -1,53 +1,110 @@
 ---
-title: "How G.I. Joe PSAs Became the Internet's First Memes"
+title: "Knowing Is Half the Battle: How G.I. Joe PSAs Accidentally Invented Meme Culture"
 slug: "knowing-is-half-the-battle-psa-memes"
-excerpt: "Every episode ended with 'Now you know, and knowing is half the battle.' Then in 2003, a filmmaker dubbed nonsensical dialogue over the originals and accidentally invented viral video culture."
-category: "History"
-date: "2026-03-14"
-readingTime: "8 min read"
-color: "#FF6B2B"
+excerpt: "Those 30-second life lessons at the end of every G.I. Joe episode became the most quotable line of the 1980s. Then the internet turned them into something nobody saw coming."
+category: "Deep Dive"
+date: "2026-03-28"
+readingTime: "10 min read"
+color: "#9B7BFF"
 image: "/images/articles/psa-cartoon.png"
 featured: false
 ---
 
-"And knowing is half the battle."
+It's 1985. You're on the carpet, action figures everywhere. The episode just ended with Duke blowing up another Cobra base. Now some kid on screen is about to stick a fork in a toaster. Out of nowhere, Flint shows up in the kitchen like a military grade guardian angel.
 
-If you grew up watching G.I. Joe in the 1980s, you heard that line hundreds of times. Every episode of the Sunbow cartoon ended with a 30-second public service announcement. A kid would be about to do something stupid. A Joe would appear out of nowhere. The kid would learn a lesson. Then the kid would look directly into the camera and say "Now I know!" And a Joe would deliver the line.
+"Whoa there! Electricity and metal don't mix!"
 
-It was wholesome. It was corny. And it became one of the most quotable moments in cartoon history.
+The kid learns his lesson. Looks straight at you through the TV. "Now I know!"
 
-## Why the PSAs Existed
+And Flint delivers the line that outlived the Cold War: **"And knowing is half the battle."**
 
-The FCC in the 1980s had rules about children's programming. If you were going to sell toys through a 22-minute animated commercial (which is exactly what G.I. Joe was), you needed educational content to justify the airtime. Hasbro and Sunbow Productions solved this with the PSAs.
+You heard it hundreds of times. We all did. Those **30-second PSA segments** weren't just educational filler. They were cultural programming that burrowed into an entire generation's brain. Twenty years later, the internet weaponized that nostalgia and accidentally invented modern meme culture.
 
-The topics were classic after-school special material. Don't talk to strangers. Look both ways before crossing the street. Don't play with matches. Don't go swimming alone. Each one followed the exact same formula: setup, rescue, lesson, tagline.
+## The FCC Made Them Do It
 
-They produced **over 60 of these segments** between 1983 and 1986. Kids memorized them. Teachers referenced them. "Knowing is half the battle" entered the American vocabulary and never left.
+Here's what nobody talks about: [G.I. Joe was basically a 22-minute toy commercial](/articles/gi-joe-invented-action-figure). Hasbro needed kids to want those action figures, and animated adventures where [Snake Eyes](/articles/snake-eyes-most-popular-toy-never-spoke) looked cool and Cobra Commander's schemes always backfired? Perfect marketing.
 
-## Then the Internet Got Hold of Them
+But the FCC had rules. Children's programming needed educational content to justify the airtime. Real educational content, not just "war is bad."
 
-In 2003, a Chicago filmmaker named **Eric Fensler** took the original PSA segments and did something nobody expected. He kept the animation exactly as-is but dubbed completely new, absurdist dialogue over it.
+So **Hasbro and Sunbow Productions** created these PSAs. Classic after-school special wisdom delivered with military precision:
 
-The results were unhinged.
+- **Don't talk to strangers**
+- **Look both ways before crossing the street**
+- **Don't play with matches**
+- **Don't go swimming alone**
+- **Stay away from downed power lines**
 
-"Porkchop sandwiches!" screamed a Joe who was supposed to be teaching fire safety. "Body massage!" yelled another for no reason whatsoever. "Who wants a body massage?" One segment devolved into a Joe mumbling incoherently about a computer. Another featured a kid saying "nice catch, blanco nino" before getting tackled.
+Each one followed the exact same formula:
 
-There was no point. No message. Just pure absurdist comedy laid over earnest 1980s animation. The contrast was devastating.
+1. **Setup:** Kid about to do something dangerous
+2. **Rescue:** A Joe appears from thin air
+3. **Lesson:** Common sense explained in three sentences
+4. **Tagline:** "Now you know, and knowing is half the battle!"
 
-## Viral Before "Viral" Was a Word
+They cranked out **over 60 of these segments** between 1983 and 1986. Teachers showed them in classrooms. Parents quoted them at dinner. The tagline became as American as baseball and complaining about taxes.
 
-The Fensler Films PSAs spread across the early internet like wildfire. This was 2003. YouTube didn't exist yet. These videos moved through **eBaum's World, Newgrounds, Something Awful**, and forwarded email chains. People downloaded them as .wmv files and passed them around on burned CDs.
+## The Numbers Behind the PSAs
 
-By the time YouTube launched in 2005, the Fensler PSAs were already legendary. They got re-uploaded thousands of times. "Porkchop sandwiches" became a reference that entire internet communities understood. If you said it, people either laughed or looked at you like you were insane. There was no middle ground.
+The reach of these segments was staggering:
 
-Hasbro eventually sent Fensler a cease and desist. He took the originals down. But by then, it was too late. The internet had them. The internet would always have them.
+- **Over 95 episodes** of the original series aired between 1983 and 1986
+- Each episode ended with a PSA, meaning kids watched **hundreds of these** during the show's run
+- G.I. Joe peaked at **9 million viewers per episode**
+- The show aired in syndication across **over 100 local stations**
+- "Knowing is half the battle" became [the most recognized catchphrase](https://www.mentalfloss.com/article/55456/15-things-you-might-not-know-about-gi-joe-real-american-hero) in 1980s children's television
 
-## Why They Mattered
+For context, that's more reach than most prime-time shows had at the time. And unlike prime-time, this audience was exclusively children who were actively absorbing everything they saw.
 
-The Fensler Films PSAs proved something that the rest of the internet would spend the next two decades confirming: **remix culture is its own art form.** Take something sincere, recontextualize it, and you create something new.
+## Then Eric Fensler Broke Everything
 
-They predated YouTube Poop. They predated TikTok duets. They predated every "nobody:" meme format. The idea that you could take existing media, strip the original intent, and rebuild it as comedy? That started here. Or close enough to here that it counts.
+Fast-forward to 2003. **Eric Fensler**, a Chicago filmmaker with too much time and exactly the right amount of creative chaos, discovered something beautiful: what happens when you keep the earnest 1980s animation but replace all the dialogue with complete nonsense?
 
-The original PSAs taught kids not to play with matches. The remixed versions taught the internet how to make memes.
+The answer was the funniest thing the internet had ever seen.
 
-And knowing is half the battle.
+**The greatest hits:**
+
+- **"Porkchop sandwiches!"** screamed a Joe during a fire safety PSA, as animated kids fled in terror
+- **"Body massage!"** yelled another for absolutely no reason. "Who wants a body massage?"
+- One segment devolved into a Joe mumbling incoherently about computers while a kid stared in confusion
+- **"Nice catch, blanco nino"** before someone got tackled
+- The crown jewel: **"Give him the stick. DON'T give him the stick!"**
+
+No educational value. No message. No point whatsoever. Just pure absurdist comedy grafted onto childhood memories like a fever dream.
+
+## Viral Before YouTube Existed
+
+The **Fensler Films G.I. Joe PSAs** spread across the early internet faster than Cobra's latest world domination scheme. This was 2003. YouTube was two years away from existing. These videos traveled through the digital underground:
+
+- **eBaum's World** (the original content aggregator)
+- **Newgrounds** (Flash animation central)
+- **Something Awful** (forum culture ground zero)
+- **Forwarded email chains** from your college roommate
+- **.wmv files** burned onto CDs and passed around dorms
+
+"Porkchop sandwiches" became a shibboleth. Say it to the right person and they'd burst out laughing. Say it to the wrong person and they'd think you needed help.
+
+When YouTube launched in 2005, the Fensler PSAs were already legendary. They got re-uploaded thousands of times. Comment sections filled with people reciting nonsensical quotes. **Hasbro eventually sent Fensler a cease and desist.** He took the originals down. But the internet doesn't forget, and it definitely doesn't delete.
+
+## The Meme Blueprint
+
+Here's what the Fensler Films PSAs actually created: **the template for remix culture as an art form.**
+
+Take something sincere. Strip away the original meaning. Rebuild it as absurdist comedy. That formula now powers:
+
+- **YouTube Poop** (years later, same DNA)
+- **TikTok duets and stitches** (reaction + remix)
+- **The "nobody:" meme format** (sincere setup, absurd punchline)
+- **Every ironic edit** on Instagram and Twitter
+- **AI-generated voice parodies** (spiritual descendants)
+
+The original PSAs taught kids practical life lessons. The remixes taught the internet something more valuable: **nostalgia isn't sacred. It's raw material.** In the right hands, that material can be funnier than anything Hollywood produces.
+
+## Why It Still Hits
+
+Twenty years later, "porkchop sandwiches" still makes millennials snort-laugh. The original PSAs about fire safety and stranger danger? Mostly forgotten.
+
+That's the weird beauty of internet culture. The parody outlived the original. The absurd became more memorable than the sincere. Eric Fensler accidentally created something more culturally significant than the source material.
+
+**The original Joes wanted to teach us that knowing is half the battle.** The internet learned the other half: sometimes not knowing what the hell is going on is way more fun.
+
+*Want the full story of how G.I. Joe went from a $100K idea to a cultural phenomenon? Read [How a $100K Idea Invented the Action Figure](/articles/gi-joe-invented-action-figure).*
