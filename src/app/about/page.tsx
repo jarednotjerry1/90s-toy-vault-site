@@ -69,41 +69,75 @@ export default function AboutPage() {
             my first car.
           </p>
 
-          <p>
-            Here&apos;s the thing I believe: everyone&apos;s a collector. If you can&apos;t throw
-            out a high school yearbook, you&apos;re a collector. If you kept a card someone
-            gave you, or dried a flower in a book, you&apos;re a collector. Some of us just
-            happen to collect action figures. The feeling behind it is the same.
-          </p>
+          {/* Belief block */}
+          <div className="rounded-lg border border-vault-border bg-vault-bg-secondary p-6 my-8">
+            <p className="text-vault-amber font-semibold font-[family-name:var(--font-headline)] text-lg mb-4">
+              Here&apos;s the thing I believe:
+            </p>
+            <p className="mb-4">
+              Everyone&apos;s a collector.
+            </p>
+            <ul className="space-y-2 ml-1">
+              <li className="flex items-start gap-2">
+                <span className="text-vault-amber mt-1">▸</span>
+                <span>Can&apos;t throw out a high school yearbook? Collector.</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-vault-amber mt-1">▸</span>
+                <span>Kept a card someone gave you 20 years ago? Collector.</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-vault-amber mt-1">▸</span>
+                <span>Dried a flower in a book and never took it out? Collector.</span>
+              </li>
+            </ul>
+            <p className="mt-4">
+              Some of us just happen to collect action figures. The feeling behind it is the same.
+            </p>
+          </div>
 
           <p>
-            My kids think I&apos;m obsessed. They&apos;re right. But sharing this stuff with
-            them, watching my son hold a toy I had at his age, seeing his face when I
-            tell him what it used to cost versus what it&apos;s worth now... that&apos;s the
-            whole point.
+            My family thinks I&apos;m obsessed. They&apos;re right. But sharing this stuff
+            with them, watching my kid hold a toy I had at their age, seeing their
+            face when I tell them what it used to cost versus what it&apos;s worth
+            now... that&apos;s the whole point.
           </p>
 
-          <p>
-            <strong className="text-vault-text">90s Toy Vault</strong> is where I put all of it.
-            The history, the collections, the weird stories, the controversies, the
-            toys that got banned and the ones that made billions. There is no wrong way
-            to collect, and there is no wrong reason to care about this stuff.
-          </p>
+          {/* What the vault is */}
+          <div className="my-8">
+            <p className="mb-4">
+              <strong className="text-vault-text">90s Toy Vault</strong> is where I put all of it:
+            </p>
+            <ul className="space-y-2 ml-1">
+              <li className="flex items-start gap-2">
+                <span className="text-vault-cyan mt-1">▸</span>
+                <span>The history and the deep cuts</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-vault-cyan mt-1">▸</span>
+                <span>The collections and the controversies</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-vault-cyan mt-1">▸</span>
+                <span>The toys that got banned and the ones that made billions</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-vault-cyan mt-1">▸</span>
+                <span>Cards, comics, and everything that overlaps with toys from that era</span>
+              </li>
+            </ul>
+            <p className="mt-4">
+              There is no wrong way to collect, and there is no wrong reason to care about this stuff.
+            </p>
+          </div>
 
           <p>
-            Cards, comics, collectibles: they all overlap with toys more than people
-            realize. Same era, same kids, same obsession with holding onto things
-            that meant something. That energy runs through everything here.
-          </p>
-
-          <p>
-            This isn&apos;t a museum. It&apos;s not a price database. It&apos;s for anyone who
-            remembers what it felt like to rip open a toy on Christmas morning and
-            think{" "}
+            For anyone who remembers what it felt like to rip open a toy on
+            Christmas morning in the &apos;90s and think{" "}
             <em className="text-vault-text">this is the greatest thing that has ever happened.</em>
           </p>
 
-          <p>
+          <p className="text-vault-text font-semibold text-lg">
             If that&apos;s you, welcome to the vault.
           </p>
         </div>
