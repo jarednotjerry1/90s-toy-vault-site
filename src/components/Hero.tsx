@@ -1,7 +1,7 @@
 export function Hero() {
   return (
     <section className="pt-28 pb-16 md:pt-36 md:pb-20">
-      <div className="max-w-3xl mx-auto text-center">
+      <div style={{ maxWidth: '640px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center' }}>
         <p className="text-vault-cyan text-xs font-[family-name:var(--font-mono)] tracking-widest uppercase mb-5">
           // every toy has a story
         </p>
@@ -10,7 +10,7 @@ export function Hero() {
           <br />
           <span className="text-vault-amber">Time Machine</span>
         </h1>
-        <p className="mt-5 text-base md:text-lg text-vault-text-secondary max-w-xl mx-auto leading-relaxed">
+        <p className="mt-5 text-base md:text-lg text-vault-text-secondary leading-relaxed" style={{ maxWidth: '480px', marginLeft: 'auto', marginRight: 'auto' }}>
           Deep dives, price guides, and untold stories from the golden age of
           toys. Built for the kids who grew up in it.
         </p>
