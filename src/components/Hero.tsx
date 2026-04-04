@@ -3,16 +3,16 @@ export function Hero() {
     <section className="pt-28 pb-16 md:pt-36 md:pb-20">
       <div style={{ maxWidth: '640px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center' }}>
         <p className="text-vault-cyan text-xs font-[family-name:var(--font-mono)] tracking-widest uppercase mb-5">
-          // every toy has a story
+          // the stories, the collections, the nostalgia
         </p>
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-[family-name:var(--font-headline)] leading-[1.1] tracking-tight">
-          <span className="text-vault-text">The Toy Aisle</span>
+          <span className="text-vault-text">The Stories Behind</span>
           <br />
-          <span className="text-vault-amber">Time Machine</span>
+          <span className="text-vault-amber">the Toys You Grew Up With</span>
         </h1>
         <p className="mt-5 text-base md:text-lg text-vault-text-secondary leading-relaxed" style={{ maxWidth: '480px', marginLeft: 'auto', marginRight: 'auto' }}>
-          Deep dives, price guides, and untold stories from the golden age of
-          toys. Built for the kids who grew up in it.
+          90s toys. The stories, the collections, the nostalgia.
+          Built for everyone who remembers what it felt like.
         </p>
       </div>
     </section>

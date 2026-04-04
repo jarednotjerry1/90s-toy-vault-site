@@ -17,7 +17,7 @@ export function Navbar() {
       <div className="site-container flex items-center justify-between py-4">
         <Link
           href="/"
-          className="flex items-center gap-0 text-xl font-bold font-[family-name:var(--font-headline)] tracking-tight"
+          className="flex items-center gap-0 text-lg md:text-xl font-bold font-[family-name:var(--font-headline)] tracking-tight whitespace-nowrap shrink-0"
         >
           <span className="text-vault-text">90s Toy&nbsp;</span>
           <span className="text-vault-amber">Vault</span>

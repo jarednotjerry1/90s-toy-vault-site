@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About | 90s Toy Vault",
   description:
-    "The story behind 90s Toy Vault. A grown-up 90s kid sharing the stories, history, and heart behind the toys we loved.",
+    "The stories behind the toys you grew up with. 90s toys, the stories, the collections, the nostalgia.",
 };
 
 const socials = [
@@ -44,7 +44,7 @@ export default function AboutPage() {
         </p>
 
         <h1 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-headline)] text-vault-text leading-tight mb-8">
-          Built by a Kid Who Never Left the Toy Aisle
+          Everyone&apos;s a Collector
         </h1>
 
         <div className="prose-vault space-y-6 text-vault-text-secondary text-base leading-relaxed">
@@ -70,30 +70,36 @@ export default function AboutPage() {
           </p>
 
           <p>
-            My kids think I&apos;m obsessed. They&apos;re right. But here&apos;s the thing: sharing
-            this stuff with them, watching my son hold a toy I had at his age, seeing
-            his face when I tell him what it used to cost versus what it&apos;s worth
-            now... that&apos;s the whole point.
+            Here&apos;s the thing I believe: everyone&apos;s a collector. If you can&apos;t throw
+            out a high school yearbook, you&apos;re a collector. If you kept a card someone
+            gave you, or dried a flower in a book, you&apos;re a collector. Some of us just
+            happen to collect action figures. The feeling behind it is the same.
+          </p>
+
+          <p>
+            My kids think I&apos;m obsessed. They&apos;re right. But sharing this stuff with
+            them, watching my son hold a toy I had at his age, seeing his face when I
+            tell him what it used to cost versus what it&apos;s worth now... that&apos;s the
+            whole point.
           </p>
 
           <p>
             <strong className="text-vault-text">90s Toy Vault</strong> is where I put all of it.
-            The history, the prices, the weird stories, the controversies, the toys
-            that got banned and the ones that made billions. Every toy has a story.
-            Most of them are wilder than you&apos;d think.
+            The history, the collections, the weird stories, the controversies, the
+            toys that got banned and the ones that made billions. There is no wrong way
+            to collect, and there is no wrong reason to care about this stuff.
           </p>
 
           <p>
-            I also love cards and comics, and those worlds overlap with toys more
-            than people realize. Same era, same kids, same obsession with collecting
-            things and arguing about what they&apos;re worth. That energy runs through
-            everything here.
+            Cards, comics, collectibles: they all overlap with toys more than people
+            realize. Same era, same kids, same obsession with holding onto things
+            that meant something. That energy runs through everything here.
           </p>
 
           <p>
-            This isn&apos;t a museum. It&apos;s not a price database. It&apos;s a magazine for
-            grown-up kids who remember what it felt like to rip open a toy on
-            Christmas morning and think{" "}
+            This isn&apos;t a museum. It&apos;s not a price database. It&apos;s for anyone who
+            remembers what it felt like to rip open a toy on Christmas morning and
+            think{" "}
             <em className="text-vault-text">this is the greatest thing that has ever happened.</em>
           </p>
 

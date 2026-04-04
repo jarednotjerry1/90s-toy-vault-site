@@ -25,8 +25,8 @@ export function Footer() {
               <span className="text-vault-amber">Vault</span>
             </Link>
             <p className="mt-4 text-sm text-vault-text-secondary leading-relaxed max-w-xs">
-              Deep dives, price guides, and stories from the golden age of
-              action figures. Every toy has a story.
+              The stories behind the toys you grew up with.
+              90s toys, collectibles, and the nostalgia that connects us.
             </p>
           </div>
 
@@ -74,7 +74,7 @@ export function Footer() {
             &copy; {new Date().getFullYear()} 90s Toy Vault. All rights reserved.
           </p>
           <p className="text-xs text-vault-text-muted font-[family-name:var(--font-mono)]">
-            // every toy has a story
+            // the stories, the collections, the nostalgia
           </p>
         </div>
       </div>
