@@ -45,7 +45,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="min-h-screen">
         <Navbar />
-        <main>{children}</main>
+        <main className="w-full">{children}</main>
         <Footer />
       </body>
     </html>
