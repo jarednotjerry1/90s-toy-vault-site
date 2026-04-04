@@ -63,8 +63,35 @@ export default async function ArticlePage({ params }: PageProps) {
     .filter((a) => a.slug !== article.slug)
     .slice(0, 3);
 
+  // JSON-LD structured data
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: article.title,
+    description: article.excerpt,
+    datePublished: article.date,
+    author: {
+      "@type": "Person",
+      name: "90s Toy Vault",
+      url: "https://90stoyvault.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "90s Toy Vault",
+      url: "https://90stoyvault.com",
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://90stoyvault.com/articles/${article.slug}`,
+    },
+  };
+
   return (
     <article className="pt-28 pb-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="site-container" style={{ maxWidth: '720px' }}>
         {/* Back link */}
         <Link

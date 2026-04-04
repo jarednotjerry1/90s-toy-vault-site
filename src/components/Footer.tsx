@@ -12,7 +12,7 @@ const footerLinks = [
   { label: "Price Guides", href: "/#articles" },
   { label: "Videos", href: "/#videos" },
   { label: "Collecting 101", href: "/#articles" },
-  { label: "About", href: "/#about" },
+  { label: "About", href: "/about" },
 ];
 
 export function Footer() {
